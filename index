@@ -1,1 +1,3 @@
-Hola mundo 
+public static Result index() {
+  return ok("Hello world");
+}
