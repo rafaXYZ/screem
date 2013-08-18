@@ -6,7 +6,8 @@ body{
 	background:lightgray;
 	color:white;
 	font-family:Arial;
-	font-size:16px;
+	
+font-size:16px;
 	margin:0;
 	text-shadow:1px 1px 0 rgba(0,0,0,.3);
 }
@@ -16,13 +17,15 @@ nav ul{
 }
 nav ul li{
 	background:rgba(0,0,0,.5);
+
 	display: inline-block;
 	font-size:16px;
 	height:50px;
 	line-height:50px;
 	padding:10px 0;
 	vertical-align: top;
-	width:25%;
+	
+width:25%;
 }
 nav ul li:hover{
 	background:rgba(0,0,0,.6);
@@ -32,7 +35,8 @@ nav ul li img {
 }
 nav ul li a{
 	color: #DDD;
-	display: block;
+	
+display: block;
 	font-weight:bold;
 	text-align:center;
 	text-transform:uppercase;
@@ -41,7 +45,8 @@ nav ul li a{
 	float: left;
 }
 .avatar img{
-	border:5px solid white;
+	
+border:5px solid white;
 	margin-left:30px;
 }
 #contenedor{
@@ -51,7 +56,8 @@ nav ul li a{
 }
 #datos{
 	border:10px solid black;
-	display: inline-block;
+	
+display: inline-block;
 	padding:20px;
 }
 #datos a{
@@ -63,26 +69,32 @@ nav ul li a{
 }
 #websites article{
 	background:#ccc;
-	border:2px solid lightgray;
+	
+border:2px solid lightgray;
 	border-radius:5px;
 	color: black;
 	font-size:15px;
 	margin:5px;
 	padding:10px;
-	width:150px;
+	
+width:150px;
 }
 #websites img {
-	-webkit-transition:.2s;
+	
+-webkit-transition:.2s;
 }
-#websites article:hover img{
+#websites article:hover 
+img{
 	-webkit-transform:scale(1.1);
 }
 @media screen and (max-width:800px){
-	nav ul li {
+	
+nav ul li {
 		width:50%;
 	}
 	nav ul li img {
-		height:80%;
+		
+height:80%;
 	}
 }
 @media screen and (max-width:480px){
@@ -90,13 +102,26 @@ nav ul li a{
 		display: block;
 		text-align:center;
 	}
-	.avatar,.personales{
+	
+.avatar,.personales{
 		float: none;
 	}
 	.avatar img {
 		margin:10px 0;
 	}
 }
+#titulo
+{
+
+	font-size:25.0pt;
+	
+	font-family:"Times New Roman","serif";
+text-align: center 
+
+  color: blue; 
+	
+}
+
 
 /*-----------------caja de luz-----------------------------  */
 #lightbox{	position: absolute;	
